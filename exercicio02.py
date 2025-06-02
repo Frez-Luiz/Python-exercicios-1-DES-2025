@@ -2,19 +2,15 @@
 # para finalizar três tarefas: X, Y e Z.
 #  Se alguma tarefa estiver com o tempo de entrega negativo, deve-se exibir uma mensagem de 
 # erro e não somar o total.
-# Soma ok, só não funciona o negativo.
 
-tarefaX = int(input("Digite o tempo da tarefa X."))
-tarefaY = int(input("Digite o tempo da tarefa Y."))
-tarefaZ = int(input("Digite o tempo da tarefa Z."))
+
+Dia01 = int(input("Dias para atividade 01."))
+Dia02 = int(input("Dias para atividade 02."))
+Dia03 = int(input("Dias para atividade 03."))
               
-soma = tarefaX + tarefaY + tarefaZ
-if tarefaX  < 0:
-    print("ERRO! Seu tempo foi negativo.")
-elif tarefaY  < 0:
-    print("ERRO! Seu tempo foi negativo.")
-elif tarefaZ  < 0:
-    print("ERRO! Seu tempo foi negativo.")
+
+if Dia01 < 0 or Dia02 < 0 or Dia03 < 0:
+    print("ERRO! Número negativo.")
 else:
-    print("Seu tempo foi:" , soma)
-    
+    soma = Dia01 + Dia02 + Dia03
+    print(f"Tempo total do projeto {soma} dias")
