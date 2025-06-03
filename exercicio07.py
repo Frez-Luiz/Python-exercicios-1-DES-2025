@@ -5,4 +5,4 @@
 # Em treinamento (>=5 e <7)
 # Reprovado (<5)
 
-
+media = 
