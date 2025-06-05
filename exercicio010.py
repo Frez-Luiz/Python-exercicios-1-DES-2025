@@ -9,6 +9,8 @@ parcela = float(input("Digite qual é a parcela mensal"))
 
 
 if salario < 3000:
-    print("ERRO! Salário abaixo do valor.")
-elif salario/0.35:
-    print("")
+    print("ERRO! Impossível fazer um financiamento.")
+elif parcela < salario/0.35:
+    print("Parcela maior que 35 porcento de seu salário")
+else:
+    print("Financiamento consedido.")
