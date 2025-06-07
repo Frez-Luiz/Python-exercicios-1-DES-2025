@@ -14,3 +14,5 @@ elif velocidadeM < 5 <= 10:
     print ("Velocidade Moderada")  
 else:
     print("Velocidade Rápida")
+
+    #finalizado

@@ -13,3 +13,5 @@ elif curso01 < curso02:
     print ("Curso02 teve mais avaliações")
 else:
     print("Teve um empate nas avaliações")
+
+    #finalizado

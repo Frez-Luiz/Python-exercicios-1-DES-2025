@@ -4,7 +4,9 @@
 consumo = int(input("Digite seu consumo de internet mensal."))
 
 soma = consumo
-if consumo < 100:
+if consumo <= 100:
     print ("Seu consumo mensal de internet está dentro do limite:" , soma)
 elif consumo > 100:
     print("Você ultrapassou seu limite:" , soma)
+
+#finalizado

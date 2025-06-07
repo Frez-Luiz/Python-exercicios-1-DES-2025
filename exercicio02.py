@@ -4,13 +4,15 @@
 # erro e não somar o total.
 
 
-Dia01 = int(input("Dias para atividade 01."))
-Dia02 = int(input("Dias para atividade 02."))
-Dia03 = int(input("Dias para atividade 03."))
+tarefaX = int(input("Tempo de entrega da primeira tarefa:"))
+tarefaY = int(input("Tempo de entrega da segunda tarefa:"))
+tarefaZ = int(input("Tempo de entrega da terceira tarefa:"))
               
 
-if Dia01 < 0 or Dia02 < 0 or Dia03 < 0:
+if tarefaX < 0 or tarefaY < 0 or tarefaZ < 0:
     print("ERRO! Número negativo.")
 else:
-    soma = Dia01 + Dia02 + Dia03
-    print(f"Tempo total do projeto {soma} dias")
+    soma = tarefaX + tarefaY + tarefaZ
+    print(f"Tempo total da entrega: {soma} ")
+
+    #finalizado

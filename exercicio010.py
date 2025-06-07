@@ -14,3 +14,5 @@ elif parcela < salario/0.35:
     print("Parcela maior que 35 porcento de seu salário")
 else:
     print("Financiamento consedido.")
+
+# está pela metade, o professor irá auxiliar para terminar a fazer.

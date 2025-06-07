@@ -12,5 +12,13 @@ altura = float(input("Digite sua altura em metros"))
 imc = peso/altura**2
 
 if imc < 18.5:
-    print("Abaixo do peso")
-elif imc 18.5 24.9:
+    print("Abaixo do peso:" , imc)
+elif 18.5 <= imc <= 24.5:
+    print("Peso normal:" , imc)
+elif 25 <= imc <= 29.9:
+    print("Sobrepeso:" , imc)
+elif imc >= 30:
+    print("Obesidade:" , imc)
+
+    #finalizado
+
