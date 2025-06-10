@@ -12,3 +12,5 @@ elif resultado >2 <6:
     print("Está quase! Tente novamente.")
 elif resultado <2:
     print("Tente novamente")
+    
+#finalizado
