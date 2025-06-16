@@ -11,13 +11,16 @@ reajuste1 = salario*0.15
 reajuste2 = salario*0.10
 reajuste3 = salario*0.05
 
+novo_salario1 = salario + reajuste1
+novo_salario2 = salario + reajuste2
+novo_salario3 = salario + reajuste3
 
 if salario <= 2000:
-    print("Você ganhou um reajuste de + 15%, que foi de +" , reajuste1)
-elif  2000.01 <= salario <= 5000:
-    print("Você ganhou um reajuste de + 10%, que foi de +" , reajuste2)
+    print("Você ganhou um reajuste de + 15%, seu salário agora é" , novo_salario1)
+elif  2000 <= salario <= 5000:
+    print("Você ganhou um reajuste de + 10%, seu salário agora é" , novo_salario2)
 elif salario > 5000:
-    print("Você ganhou um reajuste de + 5%, que foi de +" , reajuste3)
+    print("Você ganhou um reajuste de + 5%, seu salário agora é" , novo_salario3)
 
 
-#finalizado pela metade
+#finalizado
