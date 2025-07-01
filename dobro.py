@@ -1,8 +1,7 @@
 
+numero = int(input("Digite seu número."))
 
-def soma (n1,n2): 
-    return n1 + n2
+dobro = numero*2
+print(f"O dobro do seu númuro agora é: {dobro}")
 
-v1 = int(input("Digite seu primeiro valor."))
-v2 = int(input("Digite seu segundo valor."))
-print("A soma dos valores é: ", soma(v1,v2)) 
+#finalizado
